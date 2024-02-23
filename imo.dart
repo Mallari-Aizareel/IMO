@@ -276,3 +276,34 @@ body: Padding(
               ],
             ),
             SizedBox(height: 7),
+Bottom Navigation Bar
+          bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          border: Border(
+            top: BorderSide(width: 1.0, color: Colors.black.withOpacity(0.1)),
+          ),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            IconButton(
+              icon: Icon(Icons.add),
+color:Colors.blue,
+              onPressed: () {
+
+                // Add your functionality here
+              },
+            ),
+            IconButton(
+              icon: Icon(Icons.search),
+color:Colors.blue,
+              onPressed: () {
+                // Add your functionality here
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
